@@ -61,6 +61,28 @@ html {
     max-width: 1536px;
   }
 }
+h1{
+  margin-bottom: 1rem;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
+@media (min-width: 640px){h1{
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+@media (min-width: 768px){h1{
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+@media (min-width: 1024px){h1{
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+}
 .absolute{
   position: absolute;
 }
@@ -78,10 +100,6 @@ html {
 }
 .m-1{
   margin: 0.25rem;
-}
-.-mx-2{
-  margin-left: -0.5rem;
-  margin-right: -0.5rem;
 }
 .-mx-4{
   margin-left: -1rem;
@@ -330,9 +348,6 @@ html {
 .text-center{
   text-align: center;
 }
-.text-right{
-  text-align: right;
-}
 .align-middle{
   vertical-align: middle;
 }
@@ -440,6 +455,9 @@ html {
 }
 
 
+                    
+/* Class styles components */                    
+
 h1,h2,h3,h4,h5,h6{
   font-family: 'Cabin', sans-serif;
 }                    
@@ -514,12 +532,6 @@ body, html {
     width: 50%;
   }.sm\:w-9\/12{
     width: 75%;
-  }.sm\:w-auto{
-    width: auto;
-  }.sm\:flex-1{
-    flex: 1 1 0%;
-  }.sm\:flex-initial{
-    flex: 0 1 auto;
   }.sm\:pr-12{
     padding-right: 3rem;
   }.sm\:text-6xl{
