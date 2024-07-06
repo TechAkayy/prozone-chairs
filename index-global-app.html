@@ -51,7 +51,7 @@
 
   createApp(state).mount()
 </script>
-        <template id="component-all-opening-hours" data-pg-name="Pt-Component - All Opening Hours" data-pg-collapsed>
+        <template id="component-all-opening-hours" data-pg-name="Pt-Component - All Opening Hours">
             <div v-scope="{}" v-show="false" data-pg-name="Tailwind Safelist"><span class="text-primary-600" id="safe-list">Tailwind
         Safe List</span>
             </div>
@@ -62,24 +62,24 @@
             </ul>
         </template>
         <header class="bg-secondary-500 relative">
-            <div class="absolute bg-primary-500 h-full right-0 top-0 lg:w-8/12" data-pg-collapsed>
+            <div class="absolute bg-primary-500 h-full right-0 top-0 lg:w-8/12">
 </div>
             <div class="container mx-auto relative"> 
-                <nav class="flex flex-wrap items-center justify-between p-4"> <a href="#" class="font-bold hover:text-opacity-75 inline-flex items-center leading-none text-white text-xl uppercase" data-pg-collapsed> <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="2.4em" xml:space="preserve" fill="currentColor" viewBox="0 0 100 100" height="2.4em" class="mr-2">
+                <nav class="flex flex-wrap items-center justify-between p-4"> <a href="#" class="font-bold hover:text-opacity-75 inline-flex items-center leading-none text-white text-xl uppercase"> <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="2.4em" xml:space="preserve" fill="currentColor" viewBox="0 0 100 100" height="2.4em" class="mr-2">
                             <path d="M63.334 10H36.666C33.002 10 30 13.001 30 16.667v46.666h40V16.667C70 13.001 66.998 10 63.334 10z"/>
                             <path d="M76.666 36.667c-.568 0-1.113.098-1.666.169v31.497H25V36.836c-.553-.071-1.094-.169-1.666-.169C15.971 36.667 10 42.637 10 50c0 4.929 2.699 9.18 6.666 11.484V70h.004-.004c0 7.363 5.971 13.333 13.334 13.333V90h6.666v-6.667h26.668V90H70v-6.667c7.363 0 13.33-5.97 13.334-13.333v-8.516C87.301 59.18 90 54.929 90 50c0-7.363-5.971-13.333-13.334-13.333z"/>
                         </svg> <span>Prozone<br>Chair</span> </a>
                     <div v-scope="{}" data-pg-name="Pt-Scope - Today's Opening Hours" id="todays-opening-hours">
-                        <details class="dropdown" data-pg-collapsed>
+                        <details class="dropdown">
                             <summary class="m-1">
                                 <span class="text-white" v-cloak>{{todaysOpeningHours}}</span>
                             </summary>
                             <div v-scope="AllOpeningHours()" class="bg-base-100 dropdown-content p-4 rounded-box shadow w-52 z-[1]"></div>
                         </details>
                     </div>                     
-                    <button class="hover:bg-white hover:text-secondary-500 px-3 py-2 rounded text-white lg:hidden" data-name="nav-toggler" data-pg-ia='{"l":[{"name":"NabMenuToggler","trg":"click","a":{"l":[{"t":"^nav|[data-name=nav-menu]","l":[{"t":"set","p":0,"d":0,"l":{"class.remove":"hidden"}}]},{"t":"#gt# span:nth-of-type(1)","l":[{"t":"tween","p":0,"d":0.2,"l":{"rotationZ":45,"yPercent":300}}]},{"t":"#gt# span:nth-of-type(2)","l":[{"t":"tween","p":0,"d":0.2,"l":{"autoAlpha":0}}]},{"t":"#gt# span:nth-of-type(3)","l":[{"t":"tween","p":0,"d":0.2,"l":{"rotationZ":-45,"yPercent":-300}}]}]},"pdef":"true","trev":"true"}]}' data-pg-ia-apply="$nav [data-name=nav-toggler]" data-pg-collapsed> <span class="block border-b-2 border-current my-1 w-6"></span> <span class="block border-b-2 border-current my-1 w-6"></span> <span class="block border-b-2 border-current my-1 w-6"></span> 
+                    <button class="hover:bg-white hover:text-secondary-500 px-3 py-2 rounded text-white lg:hidden" data-name="nav-toggler" data-pg-ia='{"l":[{"name":"NabMenuToggler","trg":"click","a":{"l":[{"t":"^nav|[data-name=nav-menu]","l":[{"t":"set","p":0,"d":0,"l":{"class.remove":"hidden"}}]},{"t":"#gt# span:nth-of-type(1)","l":[{"t":"tween","p":0,"d":0.2,"l":{"rotationZ":45,"yPercent":300}}]},{"t":"#gt# span:nth-of-type(2)","l":[{"t":"tween","p":0,"d":0.2,"l":{"autoAlpha":0}}]},{"t":"#gt# span:nth-of-type(3)","l":[{"t":"tween","p":0,"d":0.2,"l":{"rotationZ":-45,"yPercent":-300}}]}]},"pdef":"true","trev":"true"}]}' data-pg-ia-apply="$nav [data-name=nav-toggler]"> <span class="block border-b-2 border-current my-1 w-6"></span> <span class="block border-b-2 border-current my-1 w-6"></span> <span class="block border-b-2 border-current my-1 w-6"></span> 
                     </button>                     
-                    <div class="lg:flex lg:space-x-4 lg:space-y-0 lg:w-auto space-y-2 w-full hidden lg:items-center" data-name="nav-menu" data-pg-collapsed> 
+                    <div class="lg:flex lg:space-x-4 lg:space-y-0 lg:w-auto space-y-2 w-full hidden lg:items-center" data-name="nav-menu"> 
                         <div class="flex flex-col lg:flex-row"> <a href="#" class="font-light hover:text-opacity-75 py-2 text-white lg:px-6 lg:py-4">Home</a><a href="#" class="font-light hover:text-opacity-75 py-2 text-white lg:px-6 lg:py-4">About</a><a href="#" class="font-light hover:text-opacity-75 py-2 text-white lg:px-6 lg:py-4">Products</a><a href="#" class="font-light hover:text-opacity-75 py-2 text-white lg:px-6 lg:py-4">Shop</a><a href="#" class="font-light hover:text-opacity-75 py-2 text-white lg:px-6 lg:py-4">Blog</a><a href="#" class="font-light hover:text-opacity-75 py-2 text-white lg:px-6 lg:py-4">Contact</a> 
                         </div>                         
                     </div>                     
@@ -87,7 +87,7 @@
             </div>
         </header>
         <main>
-            <section class="bg-secondary-500 relative text-white" data-pg-collapsed>
+            <section class="bg-secondary-500 relative text-white">
                 <div class="absolute bg-primary-500 h-full right-0 top-0 lg:w-8/12">
 </div>
                 <div class="container mx-auto pb-24 pt-24 px-4 relative">
@@ -102,7 +102,7 @@
                     </div>
                 </div>
             </section>
-            <section class="bg-gray-50 py-24 text-gray-500" data-pg-collapsed> 
+            <section class="bg-gray-50 py-24 text-gray-500"> 
                 <div class="container mx-auto px-4"> 
                     <div class="-mx-4 flex flex-wrap justify-center"> 
                         <div class="p-4 w-full md:w-6/12 lg:w-4/12"> 
@@ -121,7 +121,7 @@ Engineered Design</h2>
                     </div>                     
                 </div>                 
             </section>
-            <section class="py-24" data-pg-collapsed> 
+            <section class="py-24"> 
                 <div class="container mx-auto px-4 relative"> 
                     <div class="-mx-4 flex flex-wrap items-center"> 
                         <div class="px-4 py-6 w-full lg:mx-auto lg:pb-12 lg:w-5/12"> 
@@ -143,7 +143,7 @@ Engineered Design</h2>
                     </div>                     
                 </div>                 
             </section>
-            <section class="bg-gray-50 py-12" data-pg-collapsed> 
+            <section class="bg-gray-50 py-12"> 
                 <div class="container mx-auto px-4 relative"> 
                     <div class="-mx-4 flex flex-wrap items-center space-y-6 lg:space-y-0"> 
                         <div class="lg:mr-auto lg:w-6/12 px-4 w-full"> 
@@ -160,7 +160,7 @@ Engineered Design</h2>
             <section class="bg-secondary-100 py-12 text-gray-800"> 
                 <div class="container mx-auto px-4 relative"> 
                     <div class="-mx-4 flex flex-wrap justify-center"> 
-                        <div class="p-4 w-full sm:w-6/12 lg:w-4/12 xl:w-3/12" data-pg-collapsed> 
+                        <div class="p-4 w-full sm:w-6/12 lg:w-4/12 xl:w-3/12"> 
                             <div class="flex items-center space-x-4"> 
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="currentColor" width="3.5rem" height="3.5rem" class="h-14 w-14">
                                     <path d="M19.576 43.856a.727.727 0 001.093-.958 40.505 40.505 0 01-5.45-7.837 29.8 29.8 0 015.007-1.207.727.727 0 00-.214-1.439 31.5 31.5 0 00-5.441 1.329 23.643 23.643 0 01-2.286-9.015h7.834a.728.728 0 000-1.456h-7.841a23.648 23.648 0 012.315-9.02 29.837 29.837 0 008.678 1.613v4.254a.728.728 0 001.455 0v-4.254a29.837 29.837 0 008.674-1.613 25.411 25.411 0 011.98 6 .728.728 0 001.431-.27 27.082 27.082 0 00-2.02-6.236 41.73 41.73 0 007.031-3.53 22.441 22.441 0 014.7 13.054H44.5a.728.728 0 000 1.456h2.77A.729.729 0 0048 24a24 24 0 10-28 23.668.626.626 0 00.121.011.727.727 0 00.119-1.444 22.428 22.428 0 01-13.155-7.3 39.661 39.661 0 016.752-3.372 41.725 41.725 0 005.739 8.293zm-8.75-20.582H1.472a22.423 22.423 0 014.7-13.053 41.775 41.775 0 007.019 3.525 25.132 25.132 0 00-2.365 9.528zm12.447-8.86a28.261 28.261 0 01-8.029-1.472 43.184 43.184 0 018.029-10.559zm1.454 0V2.384a43.036 43.036 0 018.03 10.559 28.373 28.373 0 01-8.03 1.471zm16.157-5.323a39.981 39.981 0 01-6.724 3.348 43.313 43.313 0 00-8.191-10.892 22.483 22.483 0 0114.915 7.544zM22.029 1.548a43.223 43.223 0 00-8.2 10.889 40.1 40.1 0 01-6.718-3.348 22.5 22.5 0 0114.918-7.541zM6.157 37.793a22.473 22.473 0 01-4.67-13.063h9.344a24.992 24.992 0 002.37 9.514 41.5 41.5 0 00-7.044 3.549zm31.891 6.814H33.2a.728.728 0 000 1.455h4.849a.728.728 0 000-1.455zm5.346-3.878a3.636 3.636 0 103.636 3.636 3.641 3.641 0 00-3.636-3.636zm0 5.818a2.182 2.182 0 112.182-2.182 2.185 2.185 0 01-2.182 2.182z"></path>
@@ -173,7 +173,7 @@ Engineered Design</h2>
                                 </div>                                 
                             </div>                             
                         </div>                         
-                        <div class="p-4 w-full sm:w-6/12 lg:w-4/12 xl:w-3/12" data-pg-collapsed> 
+                        <div class="p-4 w-full sm:w-6/12 lg:w-4/12 xl:w-3/12"> 
                             <div class="flex items-center space-x-4"> 
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="currentColor" width="3.5rem" height="3.5rem" class="h-14 w-14">
                                     <path d="M19.256 20.894a3.072 3.072 0 10-3.072 3.07 3.076 3.076 0 003.072-3.07zm-4.689 0a1.618 1.618 0 111.617 1.617 1.619 1.619 0 01-1.617-1.617zm14.175 0a3.072 3.072 0 103.072-3.074 3.075 3.075 0 00-3.072 3.074zm4.689 0a1.617 1.617 0 11-1.617-1.619 1.62 1.62 0 011.617 1.619zm-2.122 13.014a.727.727 0 10-1.082-.97 8.591 8.591 0 01-13.095 0 .727.727 0 10-1.083.97 10.041 10.041 0 0015.26 0zM19.282 16.336a.726.726 0 101-1.052 6.021 6.021 0 00-8.2 0 .728.728 0 101 1.055 4.549 4.549 0 016.2-.003zm16.131.201a.728.728 0 00.5-1.256 6.024 6.024 0 00-8.2 0 .726.726 0 101 1.052 4.552 4.552 0 016.2 0 .72.72 0 00.5.204zM22.839 30.253l-.6.109a.728.728 0 00.128 1.444.7.7 0 00.129-.012l.605-.109a3.929 3.929 0 002.774-2.057A4.194 4.194 0 0026 25.944l-1.727-3.887a.727.727 0 00-1.329.59l1.726 3.887a2.741 2.741 0 01-.082 2.412 2.475 2.475 0 01-1.749 1.307z"></path>
@@ -186,7 +186,7 @@ Engineered Design</h2>
                                 </div>                                 
                             </div>                             
                         </div>                         
-                        <div class="p-4 w-full sm:w-6/12 lg:w-4/12 xl:w-3/12" data-pg-collapsed> 
+                        <div class="p-4 w-full sm:w-6/12 lg:w-4/12 xl:w-3/12"> 
                             <div class="flex items-center space-x-4"> 
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="currentColor" width="3.5rem" height="3.5rem" class="h-14 w-14">
                                     <path d="M41.742 24.176v-3.3a20.871 20.871 0 10-22.46 20.787v2.826a.726.726 0 00.449.672.734.734 0 00.278.056.724.724 0 00.514-.217l3.514-3.514a12.81 12.81 0 1017.7-17.308zm-21 18.553v-1.756a.727.727 0 00-.7-.727 19.4 19.4 0 1120.246-19.375v2.545a12.729 12.729 0 00-5.115-1.07h-.022v-1.475a14.28 14.28 0 10-15.186 14.235.683.683 0 00.544-.194.731.731 0 00.229-.531v-1.547l4.947 4.947zM33.7 20.872v1.566a12.842 12.842 0 00-11.089 10.214l-2.088-2.087a.727.727 0 00-1.241.514v2.505A12.818 12.818 0 1133.7 20.872zm1.476 25.675a11.355 11.355 0 01-10.067-6.128l2.118-2.119a.728.728 0 000-1.029l-3.333-3.333a11.36 11.36 0 1111.278 12.609z"></path>
@@ -200,7 +200,7 @@ Engineered Design</h2>
                         </div>                         
                     </div>
                     <div class="py-8" data-pg-name="Pt-Scope - Subscribe To Deals" v-scope="{}">
-                        <div class="container mx-auto px-4" data-pg-collapsed>
+                        <div class="container mx-auto px-4">
                             <div class="mx-auto sm:w-9/12 xl:w-8/12">
                                 <form> 
                                     <div class="bg-white border border-gray-300 flex items-center overflow-hidden p-1 rounded-full"> 
@@ -218,13 +218,13 @@ Engineered Design</h2>
             </section>
         </main>
         <footer class="bg-black bg-opacity-90 font-light pt-12 text-center text-white"> 
-            <div class="container mx-auto px-4 py-6 relative"> <a href="#" class="flex-col font-bold hover:text-opacity-75 inline-flex items-center leading-none mb-6 text-3xl text-center text-secondary-500 uppercase" data-pg-collapsed> <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="2.4em" xml:space="preserve" fill="currentColor" viewBox="0 0 100 100" height="2.4em">
+            <div class="container mx-auto px-4 py-6 relative"> <a href="#" class="flex-col font-bold hover:text-opacity-75 inline-flex items-center leading-none mb-6 text-3xl text-center text-secondary-500 uppercase"> <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="2.4em" xml:space="preserve" fill="currentColor" viewBox="0 0 100 100" height="2.4em">
                         <path d="M63.334 10H36.666C33.002 10 30 13.001 30 16.667v46.666h40V16.667C70 13.001 66.998 10 63.334 10z"/>
                         <path d="M76.666 36.667c-.568 0-1.113.098-1.666.169v31.497H25V36.836c-.553-.071-1.094-.169-1.666-.169C15.971 36.667 10 42.637 10 50c0 4.929 2.699 9.18 6.666 11.484V70h.004-.004c0 7.363 5.971 13.333 13.334 13.333V90h6.666v-6.667h26.668V90H70v-6.667c7.363 0 13.33-5.97 13.334-13.333v-8.516C87.301 59.18 90 54.929 90 50c0-7.363-5.971-13.333-13.334-13.333z"/>
                     </svg> <span>Prozone<br>Chair</span> </a>
-                <div class="flex flex-wrap justify-center mb-6" data-pg-collapsed> <a href="#" class="font-light hover:text-opacity-75 px-4 py-2 text-white">Home</a><a href="#" class="font-light hover:text-opacity-75 px-4 py-2 text-white">About</a><a href="#" class="font-light hover:text-opacity-75 px-4 py-2 text-white">Products</a><a href="#" class="font-light hover:text-opacity-75 px-4 py-2 text-white">Shop</a><a href="#" class="font-light hover:text-opacity-75 px-4 py-2 text-white">Blog</a><a href="#" class="font-light hover:text-opacity-75 px-4 py-2 text-white">Contact</a> 
+                <div class="flex flex-wrap justify-center mb-6"> <a href="#" class="font-light hover:text-opacity-75 px-4 py-2 text-white">Home</a><a href="#" class="font-light hover:text-opacity-75 px-4 py-2 text-white">About</a><a href="#" class="font-light hover:text-opacity-75 px-4 py-2 text-white">Products</a><a href="#" class="font-light hover:text-opacity-75 px-4 py-2 text-white">Shop</a><a href="#" class="font-light hover:text-opacity-75 px-4 py-2 text-white">Blog</a><a href="#" class="font-light hover:text-opacity-75 px-4 py-2 text-white">Contact</a> 
                 </div>
-                <div class="flex-wrap inline-flex space-x-4" data-pg-collapsed> <a href="#" aria-label="facebook" class="hover:text-opacity-50 text-white"> <svg viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5"> 
+                <div class="flex-wrap inline-flex space-x-4"> <a href="#" aria-label="facebook" class="hover:text-opacity-50 text-white"> <svg viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5"> 
                             <path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/> 
                         </svg></a> <a href="#" aria-label="twitter" class="hover:text-opacity-50 text-white"> <svg viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5"> 
                             <path d="M22.162 5.656a8.384 8.384 0 0 1-2.402.658A4.196 4.196 0 0 0 21.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 0 0-7.126 3.814 11.874 11.874 0 0 1-8.62-4.37 4.168 4.168 0 0 0-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 0 1-1.894-.523v.052a4.185 4.185 0 0 0 3.355 4.101 4.21 4.21 0 0 1-1.89.072A4.185 4.185 0 0 0 7.97 16.65a8.394 8.394 0 0 1-6.191 1.732 11.83 11.83 0 0 0 6.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.496 8.496 0 0 0 2.087-2.165z"/> 
@@ -240,14 +240,14 @@ Engineered Design</h2>
                     <div v-scope="AllOpeningHours()"></div>
                 </div>                 
             </div>
-            <hr class="opacity-25 md:mt-4" data-pg-collapsed>
+            <hr class="opacity-25 md:mt-4">
             <div class="container mx-auto px-4 relative md:text-left"> 
                 <div class="py-4 text-sm"> 
-                    <div class="flex flex-wrap -mx-4  items-center" data-pg-class-style="column_parent" data-pg-class-style-inline=" items-center"> 
-                        <div class="px-4 py-2 w-full md:flex-1" data-pg-name="Pt-Scope - Legal " v-scope="{}" data-pg-collapsed> 
+                    <div class="items-center" data-pg-class-style="column_parent" data-pg-class-style-inline=" items-center"> 
+                        <div class="px-4 py-2 w-full md:flex-1" data-pg-name="Pt-Scope - Legal " v-scope="{}"> 
                             <p>&copy; 2002 - {{new Date().getFullYear()}}. All Rights Reserved - Company Name</p> 
                         </div>                         
-                        <div class="px-4 py-2 w-full md:w-auto" data-pg-collapsed> <a href="#" class="hover:text-opacity-50 hover:underline text-white">Privacy Policy</a> |                                   <a href="#" class="hover:text-opacity-50 hover:underline text-white">Terms of Use</a> 
+                        <div class="px-4 py-2 w-full md:w-auto"> <a href="#" class="hover:text-opacity-50 hover:underline text-white">Privacy Policy</a> |                                   <a href="#" class="hover:text-opacity-50 hover:underline text-white">Terms of Use</a> 
                         </div>                         
                     </div>                     
                 </div>                 

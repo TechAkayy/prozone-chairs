@@ -67,6 +67,8 @@ h1{
   line-height: 2.5rem;
   font-weight: 700;
   letter-spacing: -0.025em;
+  --tw-text-opacity: 1;
+  color: rgb(251 191 36 / var(--tw-text-opacity));
 }
 @media (min-width: 640px){h1{
     font-size: 3rem;
@@ -100,6 +102,10 @@ h1{
 }
 .m-1{
   margin: 0.25rem;
+}
+.-mx-2{
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
 }
 .-mx-4{
   margin-left: -1rem;
@@ -348,6 +354,9 @@ h1{
 .text-center{
   text-align: center;
 }
+.text-right{
+  text-align: right;
+}
 .align-middle{
   vertical-align: middle;
 }
@@ -532,6 +541,12 @@ body, html {
     width: 50%;
   }.sm\:w-9\/12{
     width: 75%;
+  }.sm\:w-auto{
+    width: auto;
+  }.sm\:flex-1{
+    flex: 1 1 0%;
+  }.sm\:flex-initial{
+    flex: 0 1 auto;
   }.sm\:pr-12{
     padding-right: 3rem;
   }.sm\:text-6xl{
